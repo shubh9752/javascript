@@ -1,0 +1,16 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: blue;
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.user{
+    display: inline-block;
+    margin-left: 40%;
+}

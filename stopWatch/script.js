@@ -6,6 +6,7 @@ let reset=document.querySelector(".reset");
 let time=document.querySelector(".time")
 
 start.addEventListener("click", function(){
+    console.log(counter)
     if(!counter){
         counter=setInterval(run,10);
     }
