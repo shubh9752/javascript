@@ -19,6 +19,8 @@ function todo(){
         newli.textContent=value;
         const deletebtn=document.createElement("button");
         deletebtn.textContent="delete";
+        const editbtn=document.createElement("button");
+        editbtn.textContent="edit";
        
 
         list.append(newli);
